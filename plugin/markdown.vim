@@ -66,11 +66,10 @@ function! MARKDOWNSET()
   hi  link   mkdCode        String
 
   call TextEnableCodeSnip('cpp', '```cpp', '```', 'SpecialComment')
-  call TextEnableCodeSnip('cpp', '```c', '```', 'SpecialComment')
   call TextEnableCodeSnip('cpp',   '```c++', '```', 'SpecialComment')
   call TextEnableCodeSnip('java', '```java', '```', 'SpecialComment')
   call TextEnableCodeSnip('python', '```python', '```', 'SpecialComment')
-  call TextEnableCodeSnip('python', '```py', '```', 'SpecialComment')
+  call TextEnableCodeSnip('python', '```py$', '```', 'SpecialComment')
   call TextEnableCodeSnip('ruby', '```ruby', '```', 'SpecialComment')
 
   " Comment
