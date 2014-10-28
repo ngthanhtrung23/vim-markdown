@@ -70,6 +70,9 @@ function! MARKDOWNSET()
   syn region mkdCode        start="^```$" end="^```$"
   hi  link   mkdCode        String
 
+  " Normal region
+  syn region mkdNormal      start="``" end="``"
+
   " Comment
   syn region mkdComment     start=/<!--/ end=/-->/
   hi  link   mkdComment     Comment
