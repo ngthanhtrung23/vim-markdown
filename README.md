@@ -10,7 +10,7 @@ Features:
 * Detects string between $...$ as LaTex
 * Syntax highlight for code snippet between triple `` ` ``:
     * Currently allows: C++ (c or cpp or c++), Java (java), Python (py or python), Ruby (ruby)
-    * Example: `` ```cpp ... ``` `` will be highlighted as C++ codes
+    * Example code between: \`\`\`cpp ... \`\`\` will be highlighted as C++ codes
 
 Install:
 
