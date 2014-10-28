@@ -3,7 +3,7 @@ vim-markdown
 
 Simple markdown extension for Vim.
 
-Features:
+## Features:
 
 * Recognizes .md files as markdown
 * Highlight basic Markdowns: headings, list, URL...
@@ -12,7 +12,7 @@ Features:
     * Currently allows: C++ (c or cpp or c++), Java (java), Python (py or python), Ruby (ruby)
     * Example code between: \`\`\`cpp ... \`\`\` will be highlighted as C++ codes
 
-Install:
+## Install:
 
 Using Vundle: just add the following line:
 
