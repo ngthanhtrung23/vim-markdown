@@ -1,3 +1,7 @@
+<!-- Example highlight -->
+
+In this file, you can find some example of what this plugin can highlight
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -27,7 +31,17 @@ public class Main {
 }
 ```
 
-```py
+```python
+def hello():
+    a = 3
+    world = "world"
+    print "Hello {}".format(world)
 ```
 
+```ruby
+def hello
+  my_var = 3
+  puts "my_var = #{my_var}"
+end
+```
 
