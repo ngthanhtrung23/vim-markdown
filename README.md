@@ -8,6 +8,15 @@ Features:
 * Recognizes .md files as markdown
 * Highlight basic Markdowns: headings, list, URL...
 * Detects string between $...$ as LaTex
-* Syntax highlight for code snippet between ``` ... ```:
-    * ```cpp ... ``` will be highlighted as C++
+* Syntax highlight for code snippet between:
     * Currently allows: C++ (c or cpp or c++), Java (java), Python (py or python), Ruby (ruby)
+
+Install:
+
+Using Vundle: just add the following line:
+
+```
+Bundle 'ngthanhtrung23/vim-markdown'
+```
+
+and run _:PluginInstall_
