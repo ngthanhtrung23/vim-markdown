@@ -1,4 +1,4 @@
-<!-- Example highlight -->
+!-- Example highlight -->
 
 In this file, you can find some example of what this plugin can highlight
 
@@ -45,3 +45,6 @@ def hello
 end
 ```
 
+```
+some code
+```

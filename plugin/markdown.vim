@@ -67,6 +67,8 @@ function! MARKDOWNSET()
   call TextEnableCodeSnip('java', '```java', '```', 'SpecialComment')
   call TextEnableCodeSnip('python', '```python', '```', 'SpecialComment')
   call TextEnableCodeSnip('ruby', '```ruby', '```', 'SpecialComment')
+  syn region mkdCode        start="^```$" end="^```$"
+  hi  link   mkdCode        String
 
   " Comment
   syn region mkdComment     start=/<!--/ end=/-->/
