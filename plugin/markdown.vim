@@ -62,9 +62,7 @@ function! MARKDOWNSET()
   hi  link   mkdURL         htmlString
 
   " Code
-  syn region mkdCode        start=/^\s*```\s*[0-9A-Za-z_-]*\s*$/     end=/^\s*```\s*$/  contains=@CPP
-  hi  link   mkdCode        String
-
+  call TextEnableCodeSnip('html', '<', '/>', 'SpecialComment')
   call TextEnableCodeSnip('cpp', '```cpp', '```', 'SpecialComment')
   call TextEnableCodeSnip('java', '```java', '```', 'SpecialComment')
   call TextEnableCodeSnip('python', '```python', '```', 'SpecialComment')
