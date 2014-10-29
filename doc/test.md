@@ -1,4 +1,4 @@
-!-- Example highlight -->
+<!-- Example highlight -->
 
 In this file, you can find some example of what this plugin can highlight
 
@@ -19,6 +19,7 @@ This is a list
 ```cpp
 #define FOR(i,a,b) for(int i=(a),_b=(b); i < _b; ++i)
 int main() {
+    // This is a comment
     for(int i = 0; i < 3; ++i) {
     }
 }
@@ -27,22 +28,38 @@ int main() {
 ```java
 public class Main {
     public static void main(String[] args) {
+        // Do something
     }
 }
 ```
 
 ```python
+# method hello
 def hello():
+    """
+    docstring!
+    """
     a = 3
     world = "world"
     print "Hello {}".format(world)
 ```
 
 ```ruby
+# a comment
 def hello
   my_var = 3
   puts "my_var = #{my_var}"
 end
+```
+
+```vim
+" C/C++:
+function! CSET()
+  set makeprg=if\ \[\ -f\ \"Makefile\"\ \];then\ make\ $*;else\ if\ \[\ -f\ \"makefile\"\ \];then\ make\ $*;else\ gcc\ -O2\ -g\ -Wall\ -Wextra\ -o%.bin\ %\ -lm;fi;fi
+  set cindent
+  set textwidth=0
+  set nowrap
+endfunction
 ```
 
 ```
