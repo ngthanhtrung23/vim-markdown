@@ -68,6 +68,8 @@ function! MARKDOWNSET()
   call TextEnableCodeSnip('python', '```python', '```', 'SpecialComment')
   call TextEnableCodeSnip('ruby', '```ruby', '```', 'SpecialComment')
   call TextEnableCodeSnip('vim', '```vim', '```', 'SpecialComment')
+  call TextEnableCodeSnip('sql', '```sql', '```', 'SpecialComment')
+  call TextEnableCodeSnip('sh', '```sh', '```', 'SpecialComment')
   syn region mkdCode        start="^```$" end="^```$"
   hi  link   mkdCode        String
 

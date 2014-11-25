@@ -65,3 +65,16 @@ endfunction
 ```
 some code
 ```
+
+```sql
+USE voj;
+DESCRIBE tables;
+SELECT * FROM users_user;
+```
+
+```sh
+for i in {1..3};
+do
+    echo "Hello, $i"
+done
+```
