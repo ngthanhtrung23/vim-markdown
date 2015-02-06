@@ -70,6 +70,7 @@ function! MARKDOWNSET()
   call TextEnableCodeSnip('vim', '```vim', '```', 'SpecialComment')
   call TextEnableCodeSnip('sql', '```sql', '```', 'SpecialComment')
   call TextEnableCodeSnip('sh', '```sh', '```', 'SpecialComment')
+  call TextEnableCodeSnip('sh', '```bash', '```', 'SpecialComment')
   syn region mkdCode        start="^```$" end="^```$"
   hi  link   mkdCode        String
 
